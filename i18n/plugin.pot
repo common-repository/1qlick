@@ -1,0 +1,105 @@
+# Copyright (C) 2022 1Qlick Dev Team
+# This file is distributed under the same license as the 1Qlick plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1Qlick 0.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-04-07T13:49:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: 1qlick\n"
+
+#. Plugin Name of the plugin
+msgid "1Qlick"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.1qlick.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "1Qlick Checkout Plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "1Qlick Dev Team"
+msgstr ""
+
+#: Admin/Config.php:20
+msgid "1Qlick Settings"
+msgstr ""
+
+#: Admin/Config.php:41
+#: Admin/Config.php:48
+msgid "1Qlick Enabled"
+msgstr ""
+
+#: Admin/Config.php:53
+msgid "Show 1Qlick QR"
+msgstr ""
+
+#: Admin/Config.php:60
+msgid "1Qlick QR Code"
+msgstr ""
+
+#: Admin/Config.php:65
+msgid "Hooks to add button to"
+msgstr ""
+
+#: Admin/Config.php:102
+msgid "Environment the site is running in"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:89
+msgid "Scan QR code for "
+msgstr ""
+
+#: Frontend/CheckoutButton.php:91
+msgid "1Qlick Mobile Checkout"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:95
+msgid "1Qlick in progress"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:99
+msgid "Payment in progress"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:126
+msgid "Checkout with %icon"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:135
+#: Frontend/CheckoutButton.php:141
+msgid "What is 1Qlick?"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:144
+msgid "Enter details automatically,"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:146
+msgid "wherever you shop"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:150
+msgid "Enter details once"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:153
+msgid "No more form filling from then on"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:156
+msgid "Save your payment and shipping preferences"
+msgstr ""
+
+#: Frontend/CheckoutButton.php:159
+msgid "All your order history in one place"
+msgstr ""

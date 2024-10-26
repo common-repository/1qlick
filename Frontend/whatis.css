@@ -1,0 +1,115 @@
+#what-is-oneqlick-button {
+  display: table;
+  margin: 0 auto;
+}
+
+#oneqlick-text-content {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29);
+  border-radius: 4px;
+}
+
+.oneqlick-status {
+  margin-top: 10px;
+}
+
+.oneqlick-header {
+  font-weight: 700;
+  font-size: 30px;
+  display: table;
+  margin: 0 auto;
+}
+
+.oneqlick-subheader {
+  opacity: 0.5;
+  display: table;
+  margin: 0 auto;
+}
+
+.oneqlick-points {
+  display: table;
+  margin: 0 auto;
+}
+
+.oneqlick-button {
+  background: #fa7146;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.29);
+  border-radius: 4px;
+  font-family: Tahoma, serif;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.oneqlick-button:hover {
+  background: #f96030;
+}
+
+@media screen and (min-width: 640px) {
+  .oneqlick-button.qr {
+    display: none;
+  }
+}
+
+#oneqlick-qrcode-container {
+  display: none;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  #oneqlick-qrcode-container.qr {
+    display: block;
+  }
+}
+
+.oneqlick-logo {
+  float: right;
+  width: 20%;
+  min-width: 100px;
+  margin: auto 10px;
+  background-color: #fa7146;
+}
+
+.oneqlick-status-spinner {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid grey;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2.5s linear infinite; /* Safari */
+  animation: spin 2.5s linear infinite;
+  float: left;
+  margin: 0 20px 0 20px;
+}
+
+#oneqlick-status-qrcode > canvas {
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 320px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

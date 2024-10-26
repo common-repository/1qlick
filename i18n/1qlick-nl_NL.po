@@ -1,0 +1,105 @@
+# Copyright (C) 2022 1Qlick dev team
+# This file is distributed under the same license as the 1Qlick plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1Qlick 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin\n"
+"POT-Creation-Date: 2022-04-07T13:49:11+00:00\n"
+"PO-Revision-Date: 2022-04-07 15:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: 1qlick\n"
+
+#. Plugin Name of the plugin
+msgid "1Qlick"
+msgstr "1Qlick inschakelen"
+
+#. Plugin URI of the plugin
+msgid "https://www.1qlick.com/"
+msgstr "https://www.1qlick.com/"
+
+#. Description of the plugin
+msgid "1Qlick Checkout Plugin."
+msgstr "1Qlick Checkout plugin."
+
+#. Author of the plugin
+msgid "1Qlick Dev Team"
+msgstr "1Qlick ontwikkelaars team"
+
+#: Admin/Config.php:20
+msgid "1Qlick Settings"
+msgstr "1Qlick Settings"
+
+#: Admin/Config.php:41 Admin/Config.php:48
+msgid "1Qlick Enabled"
+msgstr "1Qlick inschakelen"
+
+#: Admin/Config.php:53
+msgid "Show 1Qlick QR"
+msgstr "Toon 1Qlick QR code"
+
+#: Admin/Config.php:60
+msgid "1Qlick QR Code"
+msgstr "1Qlick QR Code"
+
+#: Admin/Config.php:65
+msgid "Hooks to add button to"
+msgstr "Hooks waar de knop getoond wordt"
+
+#: Admin/Config.php:102
+msgid "Environment the site is running in"
+msgstr "Plugin omgeving"
+
+#: Frontend/CheckoutButton.php:89
+msgid "Scan QR code for "
+msgstr "Scan QR-code voor"
+
+#: Frontend/CheckoutButton.php:91
+msgid "1Qlick Mobile Checkout"
+msgstr "mobiele checkout met 1Qlick"
+
+#: Frontend/CheckoutButton.php:95
+msgid "1Qlick in progress"
+msgstr "Afrekenen met 1Qlick"
+
+#: Frontend/CheckoutButton.php:99
+msgid "Payment in progress"
+msgstr "Aan het afrekenen"
+
+#: Frontend/CheckoutButton.php:126
+msgid "Checkout with %icon"
+msgstr "Direct bestellen met %icon"
+
+#: Frontend/CheckoutButton.php:135 Frontend/CheckoutButton.php:141
+msgid "What is 1Qlick?"
+msgstr "Wat is 1Qlick?"
+
+#: Frontend/CheckoutButton.php:144
+msgid "Enter details automatically,"
+msgstr "Vul automatisch en veilig je gegevens in,"
+
+#: Frontend/CheckoutButton.php:146
+msgid "wherever you shop"
+msgstr "waar je ook shopt"
+
+#: Frontend/CheckoutButton.php:150
+msgid "Enter details once"
+msgstr "Één keer invullen"
+
+#: Frontend/CheckoutButton.php:153
+msgid "No more form filling from then on"
+msgstr "Daarna geen adresformulieren meer"
+
+#: Frontend/CheckoutButton.php:156
+msgid "Save your payment and shipping preferences"
+msgstr "Bewaar je betaal- en verzendvoorkeuren"
+
+#: Frontend/CheckoutButton.php:159
+msgid "All your order history in one place"
+msgstr "Al je bestelhistorie op één plek"
